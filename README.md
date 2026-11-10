@@ -30,7 +30,18 @@ One API to pay anyone, anywhere: bank, card, mobile money and on-chain. You pick
 
 ## [Real Adult Media](https://www.realadult.media) — *Communities for adults.*
 
-Social networks that run on **narwhal**, one platform built to carry many brands, live today as [realkink.men](https://www.realkink.men). Laravel and React on the web, Expo apps on iPhone, iPad and Android, live video and calling, and a recurring billing engine we run ourselves.
+Social networks where each community is its own place, with its own people, its own rules and its own name. They all run on **narwhal**, one platform built to carry many brands, live today as [realkink.men](https://www.realkink.men), the social network for men into kink since 2010, with pup.space and furrow.social coming.
+
+**Under the hood**
+
+| | |
+|---|---|
+| **Platform** | Laravel and PHP 8.4, Inertia with React and TypeScript, Tailwind. Profiles, circles, events, messaging, a journal and a full moderation desk, in seven languages. |
+| **Apps** | Expo and React Native on iPhone, iPad and Android. Native push, CallKit calling, over-the-air updates. |
+| **Real time** | Live video rooms, one-to-one calls inside messages, and On Air broadcasting from a phone. WebRTC, Agora and Laravel Reverb. |
+| **Media** | An FFmpeg pipeline in Docker for every photo and video members upload. |
+| **Billing** | A recurring billing engine we run ourselves, with the card processor only processing. |
+| **Infrastructure** | DigitalOcean, Docker, MySQL, Valkey, Horizon queues, Nightwatch monitoring. |
 
 **Open source:** [photo-metadata](https://github.com/realadultmedia/photo-metadata), which strips location and owner data from photos without re-encoding, and [expo-face-boxes](https://github.com/realadultmedia/expo-face-boxes), on-device face detection for Expo.
 
